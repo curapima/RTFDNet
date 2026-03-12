@@ -1,0 +1,75 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.pth.tar
+*.bin
+*.onnx
+*.safetensors
+*.h5
+*.hdf5
+*.pb
+*.weights
+*.tflite
+*.pdparams
+*.pdopt
+
+# Serialized tensors / arrays
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+
+# Training / logging outputs
+work_dirs/
+outputs/
+output/
+runs/
+wandb/
+tensorboard/
+tb_logs/
+logs/
+log/
+checkpoints/
+ckpts/
+exp/
+experiments/
+results/
+inference_results/
+
+# Project-specific generated artifacts
+tools/data_visualization/vis_*/
+tools/data_visualization/*.npy
+tools/swanlog/run-*/
+
+# SwanLab local auth / logs
+.swanlab/
+*.swanlab
