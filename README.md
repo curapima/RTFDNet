@@ -1,4 +1,4 @@
-﻿# RXDistill (RTFDNet)
+RTFDNet: Fusion-Decoupling for Robust RGB-T Segmentation
 
 Official code release for the paper:
 
